@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magos Radar | Intelligens Perimeter Védelem Radar Alapokon</title>
+<meta name="description" content="A Magos radaralapú perimeter védelmi megoldása folyamatosan figyeli a védett terület környezetét, és valós időben jelzi a valódi behatolási kísérleteket. Kevesebb téves riasztás, gyorsabb reagálás, nagyobb biztonság.">
+<meta name="keywords" content="Magos radar, perimeter védelem, kerítésvédelem, radaros behatolásjelzés, PTZ kamera követés, kritikus infrastruktúra védelem, napelempark védelem, ipari biztonságtechnika">
+<meta name="author" content="Magos Radar Megoldások">
+<link rel="canonical" href="https://1infoclick.solutions/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="hu_HU">
+<meta property="og:title" content="Magos Radar | Intelligens Perimeter Védelem Radar Alapokon">
+<meta property="og:description" content="Lássa, mi történik a kerítésen túl – még mielőtt probléma lenne belőle. Radaralapú perimeter védelem kritikus infrastruktúráknak, napelemparkoknak és ipari létesítményeknek.">
+<meta property="og:image" content="assets/img/og-cover.jpg">
+<meta property="og:url" content="https://1infoclick.solutions/">
+<meta property="og:site_name" content="Magos Radar">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Magos Radar | Intelligens Perimeter Védelem Radar Alapokon">
+<meta name="twitter:description" content="Radaralapú perimeter védelem – kevesebb téves riasztás, gyorsabb reagálás, nagyobb biztonság.">
+<meta name="twitter:image" content="assets/img/og-cover.jpg">
+
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Magos Radar Megoldások",
+  "url": "https://example.com/",
+  "logo": "https://example.com/assets/img/logo.svg",
+  "description": "Radaralapú perimeter védelmi megoldások kritikus infrastruktúrák, napelemparkok és ipari létesítmények számára.",
+  "sameAs": []
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#tartalom">Ugrás a tartalomra</a>
+
+<header class="site-header" id="tetejere">
+  <div class="container header-inner">
+    <a href="#tetejere" class="brand" aria-label="Magos Radar – kezdőlap">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.35"/>
+          <circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+          <circle cx="20" cy="20" r="2.6" fill="currentColor"/>
+          <path d="M20 20 L20 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-word">MAGOS<span class="brand-word-sub">RADAR</span></span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Fő navigáció">
+      <a href="#miert-radar">Miért radar?</a>
+      <a href="#mukodes">Működés</a>
+      <a href="#alkalmazasi-teruletek">Alkalmazási területek</a>
+      <a href="#kapcsolat">Kapcsolat</a>
+    </nav>
+
+    <a href="#kapcsolat" class="btn btn-primary btn-small header-cta">Kérjen bemutatót</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menü megnyitása">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="tartalom">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">INTELLIGENS PERIMETER VÉDELEM RADAR ALAPOKON</p>
+        <h1>Lássa, mi történik a&nbsp;kerítésen túl<span class="accent-dot">.</span></h1>
+        <p class="hero-lede">A Magos radaralapú perimeter védelmi megoldása folyamatosan figyeli a védett terület környezetét, és valós időben jelzi a valódi behatolási kísérleteket.</p>
+
+        <ul class="hero-stats" role="list">
+          <li><span class="stat-num">↓</span>Kevesebb téves riasztás</li>
+          <li><span class="stat-num">⚡</span>Gyorsabb reagálás</li>
+          <li><span class="stat-num">🛡</span>Nagyobb biztonság</li>
+        </ul>
+
+        <div class="hero-actions">
+          <a href="#kapcsolat" class="btn btn-primary">Kérjen személyes bemutatót</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="radar-scope">
+          <div class="radar-rings"></div>
+          <div class="radar-crosshair"></div>
+          <div class="radar-sweep"></div>
+          <span class="blip blip-1"></span>
+          <span class="blip blip-2"></span>
+          <span class="blip blip-3"></span>
+          <span class="blip blip-4"></span>
+        </div>
+        <div class="scope-readout">
+          <span>TARGET_TRACK</span>
+          <span>MODE: PERIMETER</span>
+          <span>STATUS: ACTIVE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section problem">
+    <div class="container narrow">
+      <h2>A kamera nem mindig elég.</h2>
+      <p class="lede">Fák, bokrok, árnyékok, változó fényviszonyok, köd, eső vagy hó könnyen megnehezítik a hagyományos videóalapú védelem működését.</p>
+      <p class="lede lede-strong">A Magos radar más elven működik. A radar folyamatosan érzékeli a mozgást, és képes megkülönböztetni a releváns célpontokat a környezeti mozgásoktól.</p>
+    </div>
+  </section>
+
+  <!-- RADAR + CAMERA -->
+  <section class="section combo">
+    <div class="container combo-inner">
+      <div class="combo-copy">
+        <p class="eyebrow eyebrow-light">RADAR + KAMERA</p>
+        <h2>Intelligens védelem.</h2>
+        <p>A Magos nem helyettesíti a kamerarendszert. Intelligensebbé teszi azt.</p>
+        <p>A radar észleli a célpontot, meghatározza annak helyzetét és mozgását, majd szükség esetén a PTZ kamera automatikusan a célpontra fordul és követheti azt.</p>
+      </div>
+      <div class="combo-diagram" aria-hidden="true">
+        <div class="diagram-node node-radar">RADAR<span>Észlelés</span></div>
+        <div class="diagram-arrow">→</div>
+        <div class="diagram-node node-ai">MASS&nbsp;AI<span>Azonosítás</span></div>
+        <div class="diagram-arrow">→</div>
+        <div class="diagram-node node-ptz">PTZ KAMERA<span>Követés</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section features" id="funkciok">
+    <div class="container">
+      <p class="eyebrow center">MIT NYÚJT A MAGOS?</p>
+      <h2 class="center">Egy rendszer, ami tényleg érzékel.</h2>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+          </span>
+          <h3>Pontosabb érzékelés</h3>
+          <p>A radar folyamatosan figyeli a védett terület környezetét, és valós időben érzékeli a mozgó objektumokat.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 3 20h18L12 2Z"/><path d="M12 9v5"/><circle cx="12" cy="17" r="0.6" fill="currentColor"/></svg>
+          </span>
+          <h3>Kevesebb téves riasztás</h3>
+          <p>A rendszer különbséget tesz ember, jármű vagy állat mozgása és a környezeti zaj — pl. lombozat, árnyék — között.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="7" width="16" height="11" rx="1.5"/><path d="M9 7V5.5A2.5 2.5 0 0 1 11.5 3h1A2.5 2.5 0 0 1 15 5.5V7"/><circle cx="12" cy="12.5" r="2.4"/></svg>
+          </span>
+          <h3>Automatikus kamera-követés</h3>
+          <p>A radar által meghatározott célpont alapján a PTZ kamerát automatikusan ráfordítja, és követi a mozgást.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v2M12 19v2M5 12H3M21 12h-2M6.3 6.3 4.9 4.9M19.1 19.1l-1.4-1.4M6.3 17.7 4.9 19.1M19.1 4.9l-1.4 1.4"/><circle cx="12" cy="12" r="4.5"/></svg>
+          </span>
+          <h3>24/7 védelem</h3>
+          <p>A radar nem függ a időjárási- vagy fény viszonyoktól, ezért folyamatos megfigyelést biztosít.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20 20 4M4 4h6M4 4v6M20 20h-6M20 20v-6"/></svg>
+          </span>
+          <h3>Nagy területek védelme</h3>
+          <p>A megfelelő radar-konfigurációval nagy kiterjedésű területek is hatékonyan felügyelhetők.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="6" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M8 7l4 9M16 7l-4 9M8.4 6h7.2"/></svg>
+          </span>
+          <h3>Integráció a meglévő VMS rendszerrel</h3>
+          <p>A Magos megoldás integrálható a meglévő biztonságtechnikai infrastruktúrába és VMS-rendszerekbe, például Milestone környezetbe.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ONE SYSTEM MORE INFO -->
+  <section class="section info-split">
+    <div class="container info-split-inner">
+      <div class="info-visual" aria-hidden="true">
+        <div class="info-line">
+          <span>POZÍCIÓ</span><em></em>
+        </div>
+        <div class="info-line">
+          <span>IRÁNY</span><em></em>
+        </div>
+        <div class="info-line">
+          <span>OBJEKTUM TÍPUS</span><em></em>
+        </div>
+        <div class="info-line">
+          <span>JAVASOLT REAGÁLÁS</span><em></em>
+        </div>
+      </div>
+      <div class="info-copy">
+        <h2>Egy rendszer. Több információ.</h2>
+        <p>A radar nem csak azt mondja meg, hogy „valami mozog”. Információt ad arról, hol van a célpont, merre mozog, milyen típusú objektum lehet, és milyen irányban szükséges reagálni.</p>
+        <p>A biztonsági személyzet így nem több száz kamera képét figyeli. A rendszer a figyelmet oda irányítja, ahol valóban történik valami.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATIONS -->
+  <section class="section applications" id="alkalmazasi-teruletek">
+    <div class="container">
+      <p class="eyebrow center">HOL JELENT VALÓDI ELŐNYT?</p>
+      <h2 class="center">Ahol egy kis kihagyás sem engedhető meg.</h2>
+
+      <div class="app-grid">
+        <article class="app-card">
+          <h3>Kritikus infrastruktúra - Energia</h3>
+          <p>Erőművek, alállomások, energiatárolók, gázipari létesítmények és egyéb kritikus infrastruktúrák.</p>
+        </article>
+        <article class="app-card">
+          <h3>Kritikus infrastruktúra - Közlekedés</h3>
+          <p>Repülőterek, vasúti infrastruktúra, kikötők és közlekedési létesítmények.</p>
+        </article>
+
+        <article class="app-card">
+          <h3>Határvédelem</h3>
+          <p>Országhatár és egyéb magas biztonsági szintet igénylő objektumok.</p>
+        </article>
+
+        <article class="app-card">
+          <h3>Napelemparkok</h3>
+          <p>Nagy kiterjedésű, gyakran nehezen őrizhető területek folyamatos perimeter védelme.</p>
+        </article>
+        <article class="app-card">
+          <h3>Ipari létesítmények</h3>
+          <p>Gyárak, logisztikai központok, raktárak és ipari telephelyek.</p>
+        </article>
+
+        <article class="app-card">
+          <h3>Kiemelten védett területek</h3>
+          <p>Speciális szervezetek, büntetés-végrehajtási intézetek.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY RADAR COMPARISON -->
+  <section class="section why-radar" id="miert-radar">
+    <div class="container narrow">
+      <p class="eyebrow center">MIÉRT RADAR?</p>
+      <h2 class="center">Hagyományos videóalapú védelem vs. Magos</h2>
+
+      <div class="compare">
+        <div class="compare-col compare-old">
+          <h3>Hagyományos videóalapú védelem</h3>
+          <ul>
+            <li>Függ az időjárási viszonyoktól</li>
+            <li>Fényviszonyok befolyásolják</li>
+            <li>Sok téves riasztás</li>
+            <li>Több kamera szükséges nagy területhez</li>
+            <li>A kezelőnek kell megtalálnia az eseményt</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-new">
+          <h3>Magos radaralapú védelem</h3>
+          <ul>
+            <li>Folyamatos érzékelés</li>
+            <li>Éjjel-nappal/télen-nyáron működik</li>
+            <li>Intelligens célpont-azonosítás</li>
+            <li>Nagy területek hatékony lefedése</li>
+            <li>A rendszer a releváns eseményre irányítja a figyelmet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section process" id="mukodes">
+    <div class="container">
+      <p class="eyebrow center">A MAGOS MŰKÖDÉSE</p>
+      <h2 class="center">Öt lépés a felismeréstől a reagálásig</h2>
+
+      <ol class="process-list">
+        <li>
+          <span class="process-num">01</span>
+          <div>
+            <h3>Észlelés</h3>
+            <p>A radar folyamatosan figyeli a védett területet.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">02</span>
+          <div>
+            <h3>Azonosítás</h3>
+            <p>A rendszer elemzi a mozgást, és meghatározza a célpont jellemzőit.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">03</span>
+          <div>
+            <h3>Követés</h3>
+            <p>A PTZ kamera automatikusan a célpontra fordul és követheti annak mozgását.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">04</span>
+          <div>
+            <h3>Riasztás</h3>
+            <p>A releváns eseményről azonnali riasztás érkezik.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">05</span>
+          <div>
+            <h3>Reagálás</h3>
+            <p>A biztonsági személyzet pontosabb információ alapján hozhat döntést.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- DEMO CTA -->
+  <section class="section demo-cta">
+    <div class="container narrow center">
+      <h2>Nézze meg élőben.</h2>
+      <p>Megmutatjuk, hogyan érzékeli a Magos a mozgást, hogyan különbözteti meg a célpontokat, és hogyan működik együtt a kamerarendszerrel.</p>
+      <a href="#kapcsolat" class="btn btn-primary">Demót kérek</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="kapcsolat">
+    <div class="container contact-inner">
+      <div class="contact-intro">
+        <p class="eyebrow eyebrow-light">MAGOS RADAR</p>
+        <h2>Az intelligens perimeter védelem új szintje.</h2>
+        <p class="tagline">Észlel. Követ. Azonosít. Véd.</p>
+
+        <dl class="contact-details">
+          <div>
+            <dt>Kapcsolattartó</dt>
+            <dd>Grobetty Dániel</dd>
+          </div>
+          <div>
+            <dt>Telefon</dt>
+            <dd><a href="tel:+36705480420">+36 70 5 480 420</a></dd>
+          </div>
+          <div>
+            <dt>E-mail</dt>
+            <dd><a href="mailto:sales@1infoclick.solutions">sales@1infoclick.solutions</a></dd>
+          </div>
+          <div>
+            <dt>Weboldal</dt>
+            <dd><a href="https://1infoclick.solutions">1infoclick.solutions</a></dd>
+          </div>
+        </dl>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/mvkpaazd" method="POST" novalidate>
+        <h3>Kérjen bemutatót</h3>
+
+        <div class="form-row">
+          <label for="name">Név <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label for="company">Cég</label>
+            <input type="text" id="company" name="company" autocomplete="organization">
+          </div>
+          <div>
+            <label for="phone">Telefonszám</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-mail cím <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="topic">Érdeklődés tárgya</label>
+          <select id="topic" name="topic">
+            <option value="demo">Személyes / online bemutató</option>
+            <option value="critical-infra">Kritikus infrastruktúra védelme</option>
+            <option value="solar">Napelempark védelme</option>
+            <option value="industrial">Ipari létesítmény védelme</option>
+            <option value="other">Egyéb</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Üzenet</label>
+          <textarea id="message" name="message" rows="4" placeholder="Mesélje el röviden, mit szeretne védeni..."></textarea>
+        </div>
+
+        <label class="consent">
+          <input type="checkbox" name="consent" required>
+          <span>Hozzájárulok, hogy az 1infoclick Solution munkatársa felvegye velem a kapcsolatot.</span>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-full">Kérem a személyes bemutatót</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#tetejere" class="brand brand-footer">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="26" height="26">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.35"/>
+          <circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+          <circle cx="20" cy="20" r="2.6" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-word">MAGOS<span class="brand-word-sub">RADAR</span></span>
+    </a>
+    <p class="footer-copy">© <span id="year"></span> 1infoclick Solutions. Minden jog fenntartva.</p>
+    <nav class="footer-nav" aria-label="Lábléc navigáció">
+      <a href="#miert-radar">Miért radar?</a>
+      <a href="#mukodes">Működés</a>
+      <a href="#kapcsolat">Kapcsolat</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
